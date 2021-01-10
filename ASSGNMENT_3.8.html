@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TanujaResume</title>
+    <link rel="stylsheet" href="/HTML/ResumeSty.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+
+<body style="background-color: rgb(141,145,146);">
+    <div>
+        <h2 style="text-align:center"><u>Resume</u></h2>
+    </div>
+
+    <div style="margin-left: 20%;">
+        <div>
+            <table boarder>
+                <tr>
+                    <th id="fullName">Name </th>
+                    <td>Tanuja Patil </td>
+                </tr>
+                <tr>
+                    <th>Address</th>
+                    <td> At. Bhilali, Tal. Amalner, Dist. Jalgaon. </td>
+                </tr>
+                <tr>
+                    <th> Phone No. </th>
+                    <td> 7066208209</td>
+
+                </tr>
+                <tr>
+                    <th>Email </th>
+                    <td>patiltanuja566@gmail.com</td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <br>
+        <div>
+            <table border="1">
+                <div style=border:1px solid black ; cellspacing="60px" cellpadding="80px">
+                    <tr>
+                        <td><strong>Sr. NO.</strong></td>
+                        <td><strong>College Name</strong></td>
+                        <td> <strong>Year of Passing </strong></td>
+                        <td><strong>Percentage</strong></td>
+                    </tr>
+                </div>
+                <tr style="border: 1px solid black;">
+                    <td>1</td>
+                    <td> SGGSIE & T,NANDED</td>
+                    <td><strong>2020</strong></td>
+                    <td>6.8 CGPA</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td> JAI HIND</td>
+                    <td><strong>2015</strong></td>
+                    <td>73</td>
+                </tr>
+                <tr style="border: 1px solid black ;">
+                    <td>3</td>
+                    <td> JANTA SCHOOL</td>
+                    <td><strong>2012</strong></td>
+                    <td>86</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <h5>SOFT SKILLS:</h5>
+            <ul>
+                <li>Team Work.</li>
+                <li>Good Communication Skills.</li>
+            </ul>
+            <h5>TECHNICAL SKILLS: </h5>
+            <ul>
+                <li>Microsoft office</li>
+                <li>C language</li>
+                <li>OOP with Java</li>
+            </ul>
+        </div>
+        <div>
+            <h5>PERSIONAL PROFILE: </h5>
+            <ul>
+                <li>Date Of Birth: 16-December-1998</li>
+                <li>Marital status : Unmarried.</li>
+                <li>Nationality : Indian</li>
+                <li>Known languages : Marathi, Hindi, English.</li>
+                <li>Hobbies : Playing basketball, Passionate about fitness </li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        /* 8 Write a javascript to get first and last name from previously created resume form.*/
+
+        var fullName = "tanuja patil"
+        var firstName = fullName.split(' ').slice(0, -1).join(' ');
+        var lastName = fullName.split(' ').slice(-1).join(' ');
+        document.write(firstName);
+        document.write(lastName);
+    </script>
+</body>
+
+</html> 
