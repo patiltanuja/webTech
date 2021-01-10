@@ -1,0 +1,24 @@
+<!--  You are having sample data for the link. Write jQuery code to change the hyperlink and the text of an existing link.  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <p><a href="https://www.google.com/" id="link1"></a>Link</p>
+<button>click here</button>
+<p id="p1">This is for google</p>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("#link1").attr("herf","https://www.google.com/")
+   $("#p1").text("this is for Youtube")
+    });
+});
+</script>
+</body>
+</html>
