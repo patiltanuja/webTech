@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Events</title>
+    <link rel="stylesheet" href="/jquery/jQStyle5.css">
+    <script src="/jquery/jQuery.js"></script>
+    <style>
+        body{font-family:arial}
+        #box
+        {
+            background-color: blueviolet;
+            background: orange;
+            border : 1 px solid #000;
+        }
+    </style>
+</head>
+<body>
+<h2> jQuery Mouse Events</h2>
+<div id="box" class="test">
+    <h3>Events box</h3>
+    <p>starting with 1<sup>st</sup> event of jQuery i.e. mouse event</p>
+</div>
+
+<script>
+    $(document).ready(function(){
+    // $("#box").click(function(){
+    //     $("#box").css('background-color','blue');
+    // var a = $("#box").html();
+    //     // console.log(a);
+     //});
+    // $("#box").dbclick(function(){
+    //     $("#box").css('background-color','yellow');
+    // });
+    $("#box").contextmenu(function(){
+        $("#box").css('background-color','gray');
+    });
+    // $("#box").mouseenter(function(){
+    //     $("#box").css('background-color','tan');
+    // });
+    // $("#box").mouseleave(function(){
+    //     $("#box").css('background-color','purple');
+    //});
+});
+</script>
+</body>
+</html>

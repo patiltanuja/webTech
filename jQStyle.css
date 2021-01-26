@@ -1,0 +1,20 @@
+
+
+#test1{
+        width: 200px;
+        height: 500px;
+        background-color: coral;
+        border: 2px solid black;
+        float: left;
+        margin: 20px;
+    }
+    
+#test2{
+    width: 200px;
+    height: 500px;
+    background-color: yellow;
+    border: 2px solid black;
+    float: right;
+    margin: 20px;
+}
+    

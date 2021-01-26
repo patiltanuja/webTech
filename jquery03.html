@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Syntax</title>
+    <link rel="stylesheet" href="/jquery/jQStyle.css">
+    <script src="/jquery/jQuery.js"></script>
+</head>
+<body>
+    <h1>jQuery Syntax</h1>
+ 
+    <div id="test1" >
+        <h2>Test box1</h2>
+        <p>Friday it is </p>
+    
+    </div>
+
+    <div id="test2" >
+        <h2>Test box2</h2>
+        <p> tommarrow is 9<sup>th</sup>jan 2021 (saturday)</p>
+    
+    </div>
+<script>
+    $(document).ready(function(){
+       var a= $('#test1').html();
+       console.log(a);
+       console.log("Hello");
+
+       var b= $('#test2').html();
+       console.log(b);
+    });
+</script>
+</body>
+</html>
